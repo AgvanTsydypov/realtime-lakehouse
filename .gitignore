@@ -1,0 +1,26 @@
+# Python
+venv/
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Secrets and configs — NEVER commit these
+.env
+*.token
+.databrickscfg
+
+# Local Spark artifacts
+spark-warehouse/
+metastore_db/
+derby.log
+
+# Raw data — belongs in storage, not in git
+data/
+*.csv
+*.parquet
+
+# macOS and IDE
+.DS_Store
+.idea/
+.vscode/

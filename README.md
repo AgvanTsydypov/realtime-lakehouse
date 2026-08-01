@@ -34,4 +34,4 @@ Kubernetes, is written to Delta (bronze), processed in Databricks
 - [x] Phase 1 — Spark on Databricks: reads, aggregations, query plan
 - [x] Phase 2 — Delta Lake, bronze/silver/gold medallion, MLflow
 - [x] Phase 3 — the same Spark locally (OSS PySpark)
-- [ ] Phase 4 — Spark on Kubernetes + Airflow
+- [x] Phase 4 — Spark on Kubernetes + Airflow

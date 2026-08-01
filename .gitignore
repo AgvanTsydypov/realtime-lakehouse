@@ -4,6 +4,7 @@ venv/
 __pycache__/
 *.pyc
 .ipynb_checkpoints/
+airflow-venv/
 
 # Secrets and configs — NEVER commit these
 .env
